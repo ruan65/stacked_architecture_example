@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:stacked_example/app/router.gr.dart';
 import 'package:stacked_example/ui/view/future_example/future_example_view.dart';
+import 'package:stacked_example/ui/view/stream_example/stream_example_view.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 import 'app/locator.dart';
@@ -24,7 +25,7 @@ class App extends StatelessWidget {
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: FutureExampleView(),
+      home: StreamExampleView(),
     );
   }
 }
